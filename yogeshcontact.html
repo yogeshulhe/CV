@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Yogesh Ulhe</title>
+  </head>
+  <body>
+    <h1>Yogesh Ulhe Contact Details</h1>
+    <ul>
+      <li><h2>Email: </h2><a href="mailto:ulheyogesh@gmail.com">ulheyogesh@gmail.com</a></li>
+      <li><h2>Mobile Number:</h2><a href="tel:+918419969868">+91-84199-69868</a></li>
+      <li><h2>Adress: </h2><pre>B-404, Radhakrishna Complex,
+Plot No: 25, Sector 25,Kamothe,
+Navi Mumbai, Maharashtra, India
+410209.
+      </pre></li>
+    </ul>
+<!--Making contact form-->
+<h3>Contact Form</h3>
+<form action="mailto:ulheyogesh@gmail.com" method="post" enctype="text/plain">
+  <!-- enctype-"text/plain"used for proper submission of text-->
+  <!--action="mailto:ulheyogesh@gmail.com"  is used for submitting users data in terms of email after clicking submit button of form-->
+
+  <label>Your Name:</label>
+  <input type="text" name="YourName" value="">
+  <br>
+  <label>Do you want to sign up for email list</label>
+  <input type="checkbox" name="emaillistsignup" value="">
+  <br>
+  <label>Email:</label>
+  <input type="email" name="Email" value="">
+  <br>
+
+  <!--Use of radio input-->
+  <p>Select your gender</p>
+  <input type="radio" id="male" name="gender" value="male">
+  <label>Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label><br><br>
+
+  <p>Select your age group</p>
+  <input type="radio" id=age1 name="age" value="30">
+  <label for="age1">0-30</label><br>
+  <input type="radio" id="age2" name="age" value="60">
+  <label for="age2">31-60</label><br>
+  <input type="radio" id="age3" name="age" value="90">
+  <label for="age3">61-100</label><br><br>
+
+  <label>Your Message</label><br>
+  <textarea name="YourMessage" rows="10" cols="30" maxlength="40" minlength="10" required>
+    Type your message-Max 40 letters and min 10 letters
+  </textarea>
+  <br>
+  <input type="submit" name="">
+
+</form>
+
+  </body>
+</html>
